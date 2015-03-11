@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gcmsample.NotesHome" >
+
+    
+
+    <item 
+        android:id="@+id/men_note_addNew"
+    android:showAsAction="always" android:icon="@android:drawable/ic_input_add"
+    android:title="@string/action_settings"   android:orderInCategory="100" />
+    
+
+</menu>

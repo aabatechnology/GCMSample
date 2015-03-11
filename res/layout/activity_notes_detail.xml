@@ -1,0 +1,63 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="com.example.gcmsample.NotesDetail" >
+    <LinearLayout  android:layout_width="match_parent"
+    android:layout_height="match_parent" android:layout_margin="4dp" 
+     android:orientation="vertical" >
+      <TextView
+                android:id="@+id/txv_product_det_header"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Offer Details"
+                android:textSize="22sp" android:layout_marginBottom="10dp"/>
+    <TextView
+                android:id="@+id/txv_product_det_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/val_product_name" android:layout_marginBottom="8dp" />
+    <TextView
+                android:id="@+id/txv_product_det_nameV"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text=""  android:layout_marginBottom="8dp"/>
+
+    <TextView
+                android:id="@+id/txv_product_det_discount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/val_product_discount" android:layout_marginBottom="8dp"/>
+      <TextView
+                android:id="@+id/txv_product_det_discountV"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="" android:layout_marginBottom="8dp"/> 
+   <TextView
+                android:id="@+id/txv_product_det_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="@string/val_product_description" android:layout_marginBottom="8dp"/> 
+ <TextView
+                android:id="@+id/txv_product_det_descriptionV"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="" android:layout_marginBottom="8dp"   /> 
+<TextView
+                android:id="@+id/txv_product_det_footer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="22sp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="Store details here" />                                      
+
+ </LinearLayout>
+    
+</ScrollView>
